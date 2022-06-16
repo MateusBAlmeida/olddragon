@@ -9,18 +9,14 @@ function Page(){
             <img className={styles.img} src="\imgs\Logo-Fundo-Claro.png"/>
             <form>
                 <p>
-                    <label className={styles.text_field} for='name'>Nome:<abbr title="required"></abbr></label>
-                    <input className={styles.field} type='text' id='name'/>
-                </p>
-                <p>
-                    <label className={styles.text_field} for='email'>E-mail:<abbr title="required"></abbr></label>
+                    <label for='email'>E-mail:</label>
                     <input className={styles.field} type='email' id='email'/>
                 </p>
                 <p>
-                    <label className={styles.text_field} for='password'>Senha:<abbr title="required"></abbr></label>
+                    <label for='password'>Senha:</label>
                     <input className={styles.field} type='password' id='password'/>
                 </p>
-                <button className={styles.button_cad}>Cadastrar</button>
+                <button className={styles.button_cad}>Logar</button>
             </form>
             </div>
         </div>
