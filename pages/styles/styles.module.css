@@ -60,9 +60,9 @@
     text-decoration: none;
 }
 .header {
-    
-    margin: 0;
-    padding: 0;
+    background-color: #fff;
+    margin: none;
+    padding: 10px;
 }
 
 .container {
