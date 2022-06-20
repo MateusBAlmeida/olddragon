@@ -75,8 +75,8 @@
 }
 
 .centralwidget {
-    width: 300px;
-    height: 375px;
+    width: auto;
+    height: auto;
     background-color: #6d6565;
     color: #fff;
     padding: 15px;

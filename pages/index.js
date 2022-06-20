@@ -15,11 +15,12 @@ function Page(){
       
             
             <h2 className={styles.h2}>Que aventuras te esperam?</h2>
-            <p className={styles.h2}>Uma plataforma de gestão de fichas para sistema OldDragon. Feito de fãs para fãs.</p>
+            <footer className={styles.h2}>Uma plataforma de gestão de fichas para sistema OldDragon. Feito de fãs para fãs.</footer>
 
             {/* <button className={styles.button}>Login</button>
             <button className={styles.button}>Cadastro</button> */}
         </div>
+        
     )
 }
 
