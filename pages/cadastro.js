@@ -1,13 +1,16 @@
 import styles from './styles/styles.module.css';
+import Helmet from 'react-helmet'
 
 
 export default function Page(){
 
     
+    
     return (
-        <div className={styles.container}>
-            <div className={styles.centralwidget}>     
-                <img className={styles.img} src="\imgs\Logo-Fundo-Claro.png"/>
+        <div className={styles.container}> // aqui tem dois
+            <Helmet title="Cadastro" />
+            <div className={styles.centralwidget}>     // e aqui
+                <a <img className={styles.img} src="\imgs\Logo-Fundo-Claro.png"/>
                 <form>
                     <p>
                         <label className={styles.text_field} for='name'>Nome:<abbr title="required"></abbr></label>

@@ -1,10 +1,13 @@
 import styles from './styles/styles.module.css';
+import Helmet from 'react-helmet'
 
 
 function Page(){
     
+    
     return (
         <div className={styles.container}>
+            <Helmet title="Login" />
             <div className={styles.centralwidget}>     
             <img className={styles.img} src="\imgs\Logo-Fundo-Claro.png"/>
             <form>

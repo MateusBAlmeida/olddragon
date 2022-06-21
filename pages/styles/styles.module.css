@@ -57,15 +57,19 @@
     filter: drop-shadow(15px 15px 15px #222);
 }
 .h2{
-    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .header {
     background-color: #fff;
-    margin: none;
     padding: 10px;
 }
 
-.container {
+.container { 
     width: auto;
     height: 90vh;
     display: flex;
@@ -81,7 +85,8 @@
     color: #fff;
     padding: 15px;
     border-radius: 8px;
-    
+    -webkit-filter: drop-shadow(15px 15px 15px #222);
+    filter: drop-shadow(15px 15px 15px #222);
 }
 
 .text_field {
@@ -96,4 +101,12 @@
     display: flex;
     align-items: center;
     height: 20px;
+}
+
+.text_body {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
