@@ -3,13 +3,17 @@ import Helmet from 'react-helmet'
 
 
 function Page(){
+
+    async function login(){
+        
+    }
     
     
     return (
         <div className={styles.container}>
             <Helmet title="Login" />
             <div className={styles.centralwidget}>     
-            <img className={styles.img} src="\imgs\Logo-Fundo-Claro.png"/>
+            <a className={styles.a} href='/'><img className={styles.img} src="\imgs\Logo-Fundo-Claro.png"/></a>
             <form>
                 <p>
                     <label className={styles.text_field} for='email'>E-mail:</label>

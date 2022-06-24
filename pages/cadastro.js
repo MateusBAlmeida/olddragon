@@ -7,10 +7,10 @@ export default function Page(){
     
     
     return (
-        <div className={styles.container}> // aqui tem dois
+        <div className={styles.container}>
             <Helmet title="Cadastro" />
-            <div className={styles.centralwidget}>     // e aqui
-                <a <img className={styles.img} src="\imgs\Logo-Fundo-Claro.png"/>
+            <div className={styles.centralwidget}>
+                <a className={styles.a} href='/'><img className={styles.img} src="\imgs\Logo-Fundo-Claro.png"/></a>
                 <form>
                     <p>
                         <label className={styles.text_field} for='name'>Nome:<abbr title="required"></abbr></label>

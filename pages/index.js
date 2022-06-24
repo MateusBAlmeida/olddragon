@@ -9,7 +9,7 @@ function Page(){
     
     return (
         <div>
-            <Helmet title="Home" /> // esse helmet é pra outra coisa, treta do js
+            <Helmet title="OldDragon" />
             <header className={styles.header}>
                 <img className={styles.img} src="\imgs\Logo-Fundo-Claro.png"/>
                 <a className={styles.a} href='/login'><button className={styles.button}>Login</button></a>
