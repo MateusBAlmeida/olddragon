@@ -25,6 +25,7 @@ export default function Page(){
                         <input className={styles.field} type='password' id='password'/>
                     </p>
                     <button className={styles.button_cad}>Cadastrar</button>
+                    <a href='/login'>Já tenho uma conta</a>
                 </form>
             </div>
         </div>

@@ -24,6 +24,7 @@ function Page(){
                     <input className={styles.field} type='password' id='password'/>
                 </p>
                 <button className={styles.button_cad}>Logar</button>
+                <a href='/cadastro'>Não tenho uma conta</a>
             </form>
             </div>
         </div>
