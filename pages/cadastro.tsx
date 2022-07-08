@@ -2,7 +2,7 @@ import { NextPage } from "next"
 import Head from "next/head"
 import { useForm } from "react-hook-form"
 import styles from '../styles/Home.module.css'
-import api from "./api/hello"
+import api from "./api/api"
 
 
 const Cadastro: NextPage = () => {

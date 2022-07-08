@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { useForm } from 'react-hook-form'
 import styles from '../styles/Home.module.css'
-import api from './api/hello'
+import api from './api/api'
 import { AuthContext } from '../context/AuthContext'
 import { useContext } from 'react'
 

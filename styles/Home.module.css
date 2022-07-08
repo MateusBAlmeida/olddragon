@@ -71,13 +71,13 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
 .centralwidget {
   width: auto;
   height: auto;
   background-color: #6d6565;
-  color: #fff;
   padding: 15px;
   border-radius: 8px;
   -webkit-filter: drop-shadow(15px 15px 15px #222);

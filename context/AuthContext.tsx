@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import api from "../pages/api/hello";
+import api from "../pages/api/api";
 import { setCookie } from 'nookies'
 import Router from "next/router";
 
@@ -15,7 +15,7 @@ type SignInData = {
 
 type AuthContextType = {
     isAuthenticated: boolean;
-    account: User;
+    account: User | null;
     signIn: (data: SignInData) => Promise<void>
 }
 
