@@ -85,10 +85,9 @@
 }
 
 .text_field {
-  padding-bottom: 0%;
-  margin-bottom: 0;
-  display: flex;
-  align-items: center;
+  padding-bottom: 0;
+  margin: 5px;
+  flex-direction: column;
 }
 .field {
   border-radius: 6px;
@@ -103,3 +102,34 @@
   justify-content: center;
   align-items: center;
 }
+
+.field_form {
+  width: auto;
+  background-color:lightgray ;
+  outline: none;
+  font-size: 0.9em;
+  padding: 25px 10px 10px;
+  font-weight: 600;
+  color: darkslategrey;
+}
+
+.field_attrib {
+  width: auto;
+  background-color:lightgray ;
+  outline: none;
+  font-size: 1em;
+  padding: 10px;
+  font-weight: 600;
+  color: darkslategrey;
+}
+
+.field_span {
+  position: absolute;
+  color: #222;
+  font-size: 0.8em;
+  font-weight: 700;
+  margin: 5px 1vh;
+  justify-items: auto;
+  align-items: center;
+}
+
