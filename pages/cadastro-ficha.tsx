@@ -3,6 +3,14 @@ import Head from "next/head";
 import styles from '../styles/Home.module.css'
 
 const CadastroFicha: NextPage = () => {
+
+    function calculaMod(id: String, resultado: String){
+        let atributo = parseInt(document.getElementById(id).te);
+        let valor = document.getElementById(resultado);
+
+        
+    }
+
     return (
         <div className={styles.container}>
             <Head>
@@ -60,89 +68,95 @@ const CadastroFicha: NextPage = () => {
                         </label>
                     </p>
                     <p>
-                        <label className={styles.text_field} >FOR
-                            <input className={styles.field_attrib} type='number' min='1' max='20' />
+                        <label className={styles.text_field}>
+                            <span className={styles.field_span}>FOR</span>
+                            <input className={styles.field_form} type='number' min='1' max='20' id="forca" />
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>Ajuste de Ataque e Dano</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="forDano" disabled/>
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>Carga Leve -1 Pesada -2 Máxima</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="forCarga" disabled/>
                         </label>
                     </p>
                     <p>
-                        <label className={styles.text_field} >DES
-                            <input className={styles.field_attrib} type='number' min='1' max='20' />
+                        <label className={styles.text_field}>
+                            <span className={styles.field_span}>DES</span>
+                            <input className={styles.field_form} type='number' min='1' max='20' id="destreza" />
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>Ajustes</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="desAjuste" disabled/>
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>Talentos de Ladinos</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="desTalentos" disabled/>
                         </label>
                     </p>
                     <p>
-                        <label className={styles.text_field} >CON
-                            <input className={styles.field_attrib} type='number' min='1' max='20' />
+                        <label className={styles.text_field}>
+                            <span className={styles.field_span}>CON</span>
+                            <input className={styles.field_form} type='number' min='1' max='20' id="constituicao" />
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>Ajuste PV e Proteção</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="conAjuste" disabled/>
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>% Ressurreição</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="conRess" disabled/>
                         </label>
                     </p>
                     <p>
-                        <label className={styles.text_field} >INT
-                            <input className={styles.field_attrib} type='number' min='1' max='20' />
+                        <label className={styles.text_field}>
+                            <span className={styles.field_span}>INT</span>
+                            <input className={styles.field_form} type='number' min='1' max='20' id="inteligencia" />
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>Idiomas</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="intIdiomas" disabled/>
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>% Aprender Magia</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="intAprender" disabled/>
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>Magias Adicionais</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="intMagiasAd" disabled/>
                         </label>
                     </p>
                     <p>
-                        <label className={styles.text_field} >SAB
-                            <input className={styles.field_attrib} type='number' min='1' max='20' />
+                        <label className={styles.text_field}>
+                            <span className={styles.field_span}>SAB</span>
+                            <input className={styles.field_form} type='number' min='1' max='20' id="sabedoria"/>
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>Ajuste de Proteção</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="sabProtec" disabled/>
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>Magias Adicionais</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="sabMagiasAd" disabled/>
                         </label>
                     </p>
                     <p>
-                        <label className={styles.text_field} >CAR
-                            <input className={styles.field_attrib} type='number' min='1' max='20' />
+                        <label className={styles.text_field}>
+                            <span className={styles.field_span}>CAR</span>
+                            <input className={styles.field_form} type='number' min='1' max='20' id="carisma"/>
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>N° Seguidores</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="carSeguidores" disabled/>
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>Ajuste de Reação</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="carReac" disabled/>
                         </label>
-                        <label>
+                        <label className={styles.text_field}>
                             <span className={styles.field_span}>Mortos-Vivos</span>
-                            <input className={styles.field_form} type='number'></input>
+                            <input className={styles.field_form} type='number' id="carMortosVivos" disabled/>
                         </label>
                     </p>
                 </form>
