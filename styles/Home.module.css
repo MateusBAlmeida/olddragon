@@ -1,6 +1,6 @@
 
 .button {
-  background-color: rgb(255, 0, 0);
+  background-color:#b7241e;
   color: #fff;
   border: none;
   position: relative;
@@ -22,7 +22,7 @@
 }
 
 .button_cad {
-  background-color: rgb(255, 0, 0);
+  background-color:#b7241e;
   color: #fff;
   border: none;
   position: relative;
@@ -53,14 +53,14 @@
   filter: drop-shadow(15px 15px 15px #222);
 }
 .h2{
-  color: #fff;
+  color: #831915;
   font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .header {
-  background-color: #fff;
+  background-color: #EC908D;
   padding: 10px;
 }
 
@@ -77,7 +77,7 @@
 .centralwidget {
   width: auto;
   height: auto;
-  background-color: #6d6565;
+  background-color: #EC908D;
   padding: 15px;
   border-radius: 8px;
   -webkit-filter: drop-shadow(15px 15px 15px #222);
@@ -85,12 +85,14 @@
 }
 
 .text_field {
+  color: #222;
   padding-bottom: 0;
   margin: 5px;
   flex-direction: column;
 }
 .field {
   border-radius: 6px;
+  border: none;
   display: flex;
   align-items: center;
   height: 20px;
